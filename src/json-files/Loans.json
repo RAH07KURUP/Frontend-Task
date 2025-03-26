@@ -1,0 +1,113 @@
+[
+    {
+      "id": "L28UJ3265",
+      "type": "Personal Loan",
+      "borrower": "Vivaan Virk",
+      "address": "H.No. 653 Dada Ganj Ichalkaranji 279023",
+      "coBorrower": "Elakshi Chahal",
+      "sanction": 3863514,
+      "region": "West",
+      "cdp": 76,
+      "portfolio": "Pre Sarfaesi"
+    },
+    {
+      "id": "L28UJ3266",
+      "type": "Personal Loan",
+      "borrower": "Nirvi Sahni",
+      "address": "414/2, Dua, Amroha-741195",
+      "coBorrower": "Dhanuk Lalla",
+      "sanction": 2687368,
+      "region": "East",
+      "cdp": 75,
+      "portfolio": "NPA"
+    },
+    {
+      "id": "L28UJ3267",
+      "type": "Personal Loan",
+      "borrower": "Samaira Jain",
+      "address": "79/10 Barat Zia Thoothukudi 606938",
+      "coBorrower": "Chirag Tripathi",
+      "sanction": 3617146,
+      "region": "South",
+      "cdp": 76,
+      "portfolio": "Symbolic Possession"
+    },
+    {
+      "id": "L28UJ3269",
+      "type": "Personal Loan",
+      "borrower": "Aradhya Jayaraman",
+      "address": "410, Vohra Zila Moradabad 953451",
+      "coBorrower": "Shaan Hora",
+      "sanction": 1383439,
+      "region": "South",
+      "cdp": 76,
+      "portfolio": "DM Order"
+    },
+    {
+      "id": "L28UJ3273",
+      "type": "Home Loan",
+      "borrower": "Nakul Thaman",
+      "address": "22/61 Jhaivevi Marg Tinsukia 339251",
+      "coBorrower": "Shray Khosla",
+      "sanction": 3643423,
+      "region": "South",
+      "cdp": 50,
+      "portfolio": "Physical Possessions"
+    },
+    {
+      "id": "L28UJ3274",
+      "type": "Home Loan",
+      "borrower": "Badal Bhasin",
+      "address": "42, Bank Gali, Rajpur Sonarpur-086114",
+      "coBorrower": "Amani Deep",
+      "sanction": 349880,
+      "region": "West",
+      "cdp": 50,
+      "portfolio": "Auctions"
+    },
+    {
+      "id": "L28UJ3275",
+      "type": "Personal Loan",
+      "borrower": "Zoya Kala",
+      "address": "19 Chadha Zila, Giridih 362720",
+      "coBorrower": "Baju Sule",
+      "sanction": 1098368,
+      "region": "South",
+      "cdp": 50,
+      "portfolio": "13(3) Responses"
+    },
+    {
+      "id": "L28UJ3276",
+      "type": "Car Loan",
+      "borrower": "Shiok Kulkarni",
+      "address": "29/315 Tilwar Street Chandrapur 496217",
+      "coBorrower": "Stuvan Char",
+      "sanction": 2736666,
+      "region": "South",
+      "cdp": 50,
+      "portfolio": "Pre Sarfaesi"
+    },
+    {
+      "id": "L28UJ3277",
+      "type": "Home Loan",
+      "borrower": "Dhanuk Bhattacharyya",
+      "address": "H.No. 178 Dih Nagar Thiruvananthapuram-328543",
+      "coBorrower": "Ivan Rau",
+      "sanction": 1398785,
+      "region": "North",
+      "cdp": 50,
+      "portfolio": "NPA"
+    },
+    {
+      "id": "L28UJ3278",
+      "type": "Car Loan",
+      "borrower": "Vritika Hayre",
+      "address": "943 Bansal Sasanam-756954",
+      "coBorrower": "Sara Walia",
+      "sanction": 2237585,
+      "region": "North",
+      "cdp": 50,
+      "portfolio": "DM Order"
+    }
+  ]
+  

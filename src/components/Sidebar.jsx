@@ -19,7 +19,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="w-60 h-[100%] bg-white shadow-lg p-4 absolute top-[10%]">
+    <div className="w-60 h-full bg-white shadow-lg p-4 absolute top-[10%]">
       <ul className="space-y-2">
         {menuItems.map((item) => (
           <li
