@@ -1,14 +1,15 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { ArrowUp, ArrowDown } from "lucide-react";
 import options from "../json-files/Portfolio-options.json";import loans from "../json-files/Loans.json";
+import UploadDocument from "./UploadDocument";
 
 const Portfolio = () => {
   const [search, setSearch] = useState("");
-  const [selectedLoans, setSelectedLoans] = useState([]); // Store full loan objects
+  const [selectedLoans, setSelectedLoans] = useState([]); 
   const [portfolio, setPortfolio] = useState("All");
   const [filteredLoans, setFilteredLoans] = useState([]);
   const [selectedOptions, setSelectedOptions] = useState([]);
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);const [upload, setUpload] = useState(false);
 
 
   const selectedLoanCounts = useMemo(() => {
@@ -97,12 +98,12 @@ const Portfolio = () => {
               ))}
             </ul>
           )}
-          <button className="px-4 py-2 bg-blue-500 text-white hover:bg-blue-600 rounded-md">
+          <button className="px-4 py-2 bg-blue-500 text-white hover:bg-blue-600 rounded-md" onClick={()=>setUpload(true)}>
             More Filters
           </button>
         </div>
       </div>
-
+        {upload&&<UploadDocument setUpload={setUpload}/>}
       <div className="mb-[1%] mt-[3%]">
         <div className="border p-2 rounded-md w-full flex flex-wrap gap-2 mt-2">
           {selectedOptions.map((option) => (
