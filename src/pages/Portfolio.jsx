@@ -86,7 +86,7 @@ const Portfolio = () => {
           {isOpen && (
             <ul className="absolute w-full bg-white border border-gray-300 rounded shadow-md mt-1 z-10 max-h-40 overflow-auto">
               {options.map((option) => (
-                <li key={option} className="flex items-center p-2 hover:bg-gray-100 cursor-pointer">
+                <div>{option!="All"&&<li key={option} className="flex items-center p-2 hover:bg-gray-100 cursor-pointer">
                   <input
                     type="checkbox"
                     checked={selectedOptions.includes(option)}
@@ -94,7 +94,7 @@ const Portfolio = () => {
                     className="mr-2"
                   />
                   {option}
-                </li>
+                </li>}</div>
               ))}
             </ul>
           )}
